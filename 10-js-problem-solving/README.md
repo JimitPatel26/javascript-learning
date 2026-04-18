@@ -48,14 +48,6 @@ This repository contains my JavaScript practice problems covering core concepts 
 
 ---
 
-## ▶️ How to Run
-
-1. Open `index.html`
-2. Link `problems.js`
-3. Open browser console
-
----
-
 
 ## ✍️ Author
 
