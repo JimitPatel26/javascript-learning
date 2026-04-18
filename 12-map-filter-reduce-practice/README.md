@@ -1,41 +1,27 @@
-# JavaScript Map, Filter, Reduce Practice
+# JavaScript DOM Basics
 
-This repository contains practice problems based on core JavaScript array methods:
-
-- map()
-- filter()
-- reduce()
+This project demonstrates basic manipulation of the Document Object Model using JavaScript.
 
 ## 📘 Topics Covered
 
-### 🔹 Map
-- Square numbers
-- Extract object values
-- Add prefixes
-- Convert to uppercase
-- Calculate price with tax
+### 🔹 DOM Access
+- document object
+- document.body
+- document.title
 
-### 🔹 Filter
-- Even numbers
-- Age filtering
-- Word length filtering
-- Remove falsy values
-- Prime number filtering
+### 🔹 DOM Manipulation
+- Changing page title
+- Modifying styles using JavaScript
 
-### 🔹 Reduce
-- Sum of array
-- Find maximum value
-- Count occurrences (frequency counter)
-
-### 🔹 Advanced
-- Group words by first letter
+### 🔹 Console Debugging
+- Logging DOM elements
 
 ## 🚀 Key Learnings
 
-- Functional programming in JavaScript
-- Array transformations
-- Data grouping using reduce
-
+- Understanding structure of web pages (DOM)
+- Using JavaScript to modify HTML dynamically
+- Changing styles directly from JS
+- Foundation for interactive web development
 
 ## ✍️ Author
 
