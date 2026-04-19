@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubbling</title>
+    <style>
+        .child{
+            background-color: aliceblue;
+            border: 2px solid black;
+            padding: 34px;
+            margin: 34px;
+            cursor: pointer;
+        }
+
+        .childContainer{
+            background-color: beige;
+            margin: 34px;
+            padding: 34px;
+        }
+        .container{
+            background-color: yellow;
+            margin: 34px;
+            padding: 34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="childContainer">
+            <div class="child">
+                I am a child
+            </div>
+        </section>
+    </div>
+    <script>
+        // event bubbling is like when we use eventListener on child and it also activates eventListener of parent container and to stop it use e.stopPropogation()
+        document.querySelector(".child").addEventListener("click",(e)=>{
+            alert("Child Was Clicked");
+            e.stopPropagation();
+        });
+        document.querySelector(".childContainer").addEventListener("click",(e)=>{
+            alert("Child Container Was Clicked");
+            // e.stopPropagation();
+        });
+        document.querySelector(".container").addEventListener("click",()=>{
+            alert("Container Was Clicked");
+        }); 
+        let r = Math.floor(Math.random()*256) + 1;
+        let g = Math.floor(Math.random()*256) + 1;
+        let b = Math.floor(Math.random()*256) + 1;
+
+        // let a = setInterval(()=>{
+        //     document.querySelector(".childContainer").style.backgroundColor = `rgb(${r},${g},${b})`;
+        // },10000)
+
+        // clearInterval(a);
+
+        let a = setTimeout(()=>{
+            document.querySelector(".childContainer").style.backgroundColor = `rgb(${r},${g},${b})`;
+        },5000);
+
+        clearTimeout(a);
+    </script>
+</body>
+</html>
