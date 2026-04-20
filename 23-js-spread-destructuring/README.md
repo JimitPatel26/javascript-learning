@@ -13,3 +13,9 @@ This project demonstrates modern JavaScript features including:
 
 ### ➕ Spread Operator
 - Expands array elements into function arguments
+
+---
+
+## ✍️ Author
+
+**Jimit Patel**
