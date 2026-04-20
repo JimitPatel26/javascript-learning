@@ -101,3 +101,9 @@ This project strengthens JavaScript fundamentals and prepares you for:
 - Coding interviews
 - Frontend development
 - Real-world problem solving
+
+---
+
+## ✍️ Author
+
+**Jimit Patel**
