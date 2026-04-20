@@ -23,3 +23,9 @@ This is a simple JavaScript project that demonstrates how to use error handling 
 1. Open `index.html` in your browser
 2. Enter two numbers when prompted
 3. Check the console for output
+
+---
+
+## ✍️ Author
+
+**Jimit Patel**
