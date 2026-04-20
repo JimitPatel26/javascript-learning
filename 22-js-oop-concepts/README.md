@@ -48,3 +48,9 @@ This project demonstrates core Object-Oriented Programming (OOP) concepts in Jav
 ## 📌 Learning Outcome
 
 This project helps in understanding how real-world entities can be modeled using classes and how inheritance allows code reuse and extension.
+
+---
+
+## ✍️ Author
+
+**Jimit Patel**
